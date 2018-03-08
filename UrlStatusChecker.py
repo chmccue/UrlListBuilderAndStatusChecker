@@ -84,11 +84,11 @@ class UrlStatusChecker(object):
                 return data_dict
             except Exception, e:
                 # ====================
-                self.update_fail_dict([str(e), type(e)])
+                self.update_fail_dict([url, str(e), type(e)])
                 #fail_dict([str(e), type(e)])
-                print('Error on line {}'.format(sys.exc_info()[-1].tb_lineno))
-                print(type(e))
-                print(e)
+                #print('Error on line {}'.format(sys.exc_info()[-1].tb_lineno))
+                #print(type(e))
+                #print(e)
                 # ====================
 
 

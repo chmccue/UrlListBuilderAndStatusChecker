@@ -3,24 +3,6 @@ from oauth2client.service_account import ServiceAccountCredentials
 import re
 # -*- coding: utf-8 -*-
 
-#from pprint import pprint
-#############################################
-# the google feed for the API.
-#scope = ['https://spreadsheets.google.com/feeds']
-#############################################
-#credentials from json file for API.
-#creds = ServiceAccountCredentials.from_json_keyfile_name('client_secret.json', scope)
-#client = gspread.authorize(creds)
-#############################################
-
-
-#def set_credentials(email_acct_json_file):
-#    '''Pass the json file from the Google API that has the meail account for connecting to the google sheets'''
-    # the google feed for the API.
-#    scope = ['https://spreadsheets.google.com/feeds']
-#    creds = ServiceAccountCredentials.from_json_keyfile_name(email_acct_json_file, scope)
-#    client = gspread.authorize(creds)
-#    return client
 
 class GSpreadListBuilder(object):
 
